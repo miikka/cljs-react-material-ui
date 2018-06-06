@@ -1,6 +1,7 @@
 (ns cljs-react-material-ui.reagent
   (:refer-clojure :exclude [list stepper])
-  (:require [reagent.core :as r]
+  (:require [cljsjs.material-ui]
+            [reagent.core :as r]
             [reagent.impl.template]
             [reagent.interop :refer-macros [$ $!]]))
 
